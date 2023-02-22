@@ -1,3 +1,6 @@
+"""read description below code"""
+
+
 import os
 from PIL import Image
 
@@ -35,3 +38,7 @@ for file_path in image_files:
         img.save(new_filename, format=new_format)
 
 print("Conversion complete!")
+
+
+
+""" This tool is a simple image converter. Completely written by ChatGPT. Use this tool to convert coommon image formats. """
